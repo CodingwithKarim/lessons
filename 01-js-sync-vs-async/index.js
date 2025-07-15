@@ -1,33 +1,33 @@
 import { log, blockForSeconds, nonBlocking } from "./helpers.js"
 
 // 🔴 Blocking demo
-function AppBlocking() {
+function runBlockingDemo() {
   log("🔴 [Blocking] App started");
 
   setTimeout(() => {
-    log("[Blocking] setTimeout fired after 1 second");
+    log("[Blocking] setTimeout fired after waiting 1 second");
   }, 1000);
 
-  const result = blockForSeconds(5); // This blocks main thread for n seconds and nothing else can run during this time
+  const result = blockForSeconds(5);
 
   log(`[Blocking] App finished with value of "${result}"`);
 }
 
 // 🟢 Non-blocking demo
-async function AppNonBlocking() {
+async function runNonBlockingDemo() {
   log("🟢 [Non-blocking] App started");
 
   setTimeout(() => {
     log("[Non-blocking] setTimout fired after 1 second");
   }, 1000);
 
-  const result = await nonBlocking(5); // This blocks execution in this func but frees up main thread for other potential tasks
+  const result = await nonBlocking(5);
 
   log(`[Non-blocking] App finished with value of "${result}"`);
 }
 
-// Uncomment ONE at a time to see the difference clearly.
-// AppBlocking();
-// AppNonBlocking();
+
+// runBlockingDemo();
+// runNonBlockingDemo();
 
 
