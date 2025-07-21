@@ -4,9 +4,9 @@
 
 </div>
 
-A collection of small, focused lessons exploring programming concepts, tools, and ideas across various languages and subjects.
+A collection of small, focused lessons exploring programming concepts, tools, and ideas.
 
-Each folder contains one topic, with code, explanations, and output where helpful.
+Each folder contains one topic with runnable code and examples.
 
 ---
 
@@ -17,38 +17,30 @@ This repo helps me (and maybe you) do just that — one topic at a time.
 
 ---
 
-## 📂 Current Lessons
+## 📂 Lessons
 
-| Folder               | Topic                                      | Language / Focus      |
-|----------------------|--------------------------------------------|------------------------|
-| `01-sync-vs-async`   | Synchronous vs Asynchronous execution      | JavaScript             |
+| Folder                   | Topic                                     | Language / Focus       |
+|--------------------------|-------------------------------------------|------------------------|
+| `01-sync-vs-async`       | Synchronous vs Asynchronous Execution     | JavaScript             |
+| `02-javascript-promises` | Promises + Callbacks                      | TypeScript             |
 
 ---
 
 ## 🛠️ How to Use
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/lessons.git
-   cd lessons
-   ```
+```bash
+git clone https://github.com/YOUR_USERNAME/lessons.git
+cd lessons
+cd 01-sync-vs-async
+node index.js
+```
 
-2. Navigate into any lesson folder:
-   ```bash
-   cd 01-sync-vs-async
-   node index.js
-   ```
+Or for TypeScript:
 
-Each lesson includes:
-- ✅ Source code
-- 📄 A short README
-- 🧪 Optional demo/output
-
----
-
-## 🔮 Plans
-
-This repo will grow slowly over time as I study or explain new things — expect randomness and variety:
+```bash
+cd 02-javascript-promises
+deno promises-basics.ts
+```
 
 ---
 

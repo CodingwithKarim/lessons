@@ -1,0 +1,53 @@
+{
+  users: [
+    {
+      id: 1
+      name: "Hakim"
+    },
+    {
+      id: 2
+      name: "Karim"
+    }
+  ]
+
+  posts: [
+    {
+      id: 101
+      title: "First Post"
+      userID: 1
+    },
+    {
+      id: 102
+      title: "Second Post"
+      userID: 1
+    },
+    {
+      id: 103
+      title: "Post by Karim"
+      userID: 2
+    }
+  ]
+
+  comments: [
+    {
+      id: 201
+      text: "Nice post!"
+      postID: 101
+    },
+    {
+      id: 202
+      text: "Very helpful"
+      postID: 101
+    },
+    {
+      id: 203
+      text: "Well done"
+      postID: 102
+    },
+    {
+      id: 204
+      text: "Cool article"
+      postID: 103
+    }
+  ]
+}
