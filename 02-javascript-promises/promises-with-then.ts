@@ -1,3 +1,5 @@
+import { User, Post, PostComment } from "./callbacks.ts"
+
 function getUserPromise(): Promise<User> {
     return new Promise((resolve, reject) => {
         setTimeout(() => {

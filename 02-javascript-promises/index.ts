@@ -1,3 +1,5 @@
+import { User, Post, PostComment } from "./callbacks.ts"
+
 // Real example of using Promises instead of relying on setTimeout to mimick
 // Fetch returns a promise which we handle with then method with is chained in a flat manner
 // You can download HSON-Server to run this code here: https://github.com/CodingwithKarim/hson-server

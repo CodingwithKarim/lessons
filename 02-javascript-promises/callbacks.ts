@@ -1,15 +1,15 @@
-type User = {
+export type User = {
     id: number;
     name: string;
 }
 
-type Post = {
+export type Post = {
     id: number;
     title: string;
     userID: number;
 }
 
-type PostComment = {
+export type PostComment = {
     id: number;
     text: string;
     postID: number;
