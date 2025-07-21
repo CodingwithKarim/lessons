@@ -40,4 +40,4 @@ node index.js
 
 ## 🧵 License
 
-MIT — fork, learn, remix, share.
+This project is licensed under the **MIT License**. See [here](https://mit-license.org/) for details.
