@@ -69,8 +69,3 @@ async function App() {
 ```
 
 ---
-
-## 🔗 Related Lessons
-
-- [Lesson 01 – Blocking vs Non-Blocking Execution](../01-sync-vs-async/README.md)
-- [Lesson 02 – Javascript Promises](../02-javascript-promises/README.md)
