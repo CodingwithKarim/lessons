@@ -20,20 +20,29 @@ Sometimes the best way to understand something is to break it down and build a b
 
 ## 📂 Lessons
 
-| Folder                            |                    Topic                  |    Language / Focus    |
-|-----------------------------------|-------------------------------------------|------------------------|
-| `01-blocking-vs-non-blocking`     | Synchronous vs Asynchronous Execution     | JavaScript             |
-| `02-javascript-promises`          | Promises + Callbacks                      | TypeScript             |
-
+| Folder                            |                    Topic                    |    Language / Focus    |
+|-----------------------------------|---------------------------------------------|------------------------|
+| `01-blocking-vs-non-blocking`     | Synchronous vs Asynchronous Execution       |   JavaScript           |
+| `02-javascript-promises`          | Promises + Callbacks                        |   TypeScript           |
+| `03-javascript-async-await`       | Async + Await keywords                      |   TypeScript           |
+| `04-csharp-interfaces`            | Polymorphism & Abstraction with Interfaces  |   C# / .NET            |
 ---
 
 ## 🛠️ How to Use
 
 ```bash
+// Clone repo to local directory
 git clone https://github.com/CodingwithKarim/lessons.git
+
+// Navigate to the lessons directory / root lessons directory
 cd lessons
+
+// Navigate to whatever lesson you please
 cd 01-blocking-vs-non-blocking
+
+// Follow README for instructions on how to run. Ex: TS/JS lessons will require Node / Deno runtime
 node index.js
+deno index.ts
 ```
 
 ---
