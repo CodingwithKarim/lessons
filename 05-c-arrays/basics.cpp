@@ -1,13 +1,9 @@
 #include <iostream>
 
 int main(){
-    int numbers[5] = {1,2,3,4,5};
+    int numbers[5] = {5,6,7,8,9};
 
-    printf("Array starts at address %p\n", (void*)numbers); // First element lives here
-
-    printf("Second element lives at address %p\n", (void*)(numbers + 1));
-
-    printf("Third element lives at address %p\n", (void*)(numbers + 2));
+    std::cout << *(numbers); // numbers[0]
 
     return 0;
 }

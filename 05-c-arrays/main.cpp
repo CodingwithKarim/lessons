@@ -10,14 +10,18 @@ struct Block
 
 int main()
 {
-    int numbers[10];
+    // Plug in different types
+    Block array[10];
 
-    printf("Each element in `numbers` array occupies %zu bytes\n", sizeof(numbers[0]));
-    printf("Number array allocates %zu total bytes\n\n", sizeof(numbers));
+    // Check how much memory is being allocated per array slot
+    printf("Each element with type %s in `numbers` array occupies %zu bytes\n", typeid(array[0]).name(), sizeof(array[0]));
+
+    // Check how much total memory array has allocated for itself
+    printf("Array allocated %zu total bytes\n\n", sizeof(array));
 
     for (int i = 0; i < 10; i++)
     {
-        printf("numbers[%d] is located at address %p\n", i, (void*)(numbers + i));
+        printf("array[%d] is located at address %p\n", i, (void*)(array + i));
     }
 
     return 0;
