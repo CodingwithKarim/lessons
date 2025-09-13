@@ -47,17 +47,15 @@ python index.py
 
 ## 🧠 Quick Concepts
 
-  --------------------------------------------------------------------------
-  Concept              Description
-  -------------------- -----------------------------------------------------
-  Synchronous          Tasks run **one after another**, each blocking the next
-  Asynchronous         Tasks can run **concurrently** during waits (I/O, sleep)
-  `time.sleep`         Blocks the entire program during wait
-  `asyncio.sleep`      Yields control so other coroutines can run
-  `asyncio.gather`     Runs multiple async tasks concurrently and waits for all
-  Real-world I/O       Async HTTP can send multiple requests at once, reducing
-                       total runtime dramatically
-  --------------------------------------------------------------------------
+| Concept          | Description                                                                 |
+|------------------|-----------------------------------------------------------------------------|
+| **Synchronous**  | Tasks run **one after another**, each blocking the next                     |
+| **Asynchronous** | Tasks can run **concurrently** during waits (I/O, sleep)                    |
+| `time.sleep`     | Blocks the entire program during wait                                       |
+| `asyncio.sleep`  | Yields control so other coroutines can run                                  |
+| `asyncio.gather` | Runs multiple async tasks concurrently and waits for all                    |
+| Real-world I/O   | Async HTTP can send multiple requests at once, reducing total runtime       |
+
 
 ---
 
