@@ -26,6 +26,9 @@ Sometimes the best way to understand something is to break it down and build a b
 | `02-javascript-promises`          | Promises + Callbacks                        |   TypeScript           |
 | `03-javascript-async-await`       | Async + Await keywords                      |   TypeScript           |
 | `04-csharp-interfaces`            | Polymorphism & Abstraction with Interfaces  |   C# / .NET            |
+| `05-c-arrays`                     | How Arrays work in C (continuos memory)     |   C++                  |
+| `06-python-asyncio`               | Sync vs Async with Asyncio                  |   Python               |
+
 ---
 
 ## 🛠️ How to Use
