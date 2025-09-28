@@ -28,6 +28,7 @@ Sometimes the best way to understand something is to break it down and build a b
 | `04-csharp-interfaces`            | Polymorphism & Abstraction with Interfaces  |   C# / .NET            |
 | `05-c-arrays`                     | How Arrays work in C (continuos memory)     |   C++                  |
 | `06-python-asyncio`               | Sync vs Async with Asyncio                  |   Python               |
+| `07-c-singleton`                  | Singleton Design Patter in C                |   C++                  |
 
 ---
 
