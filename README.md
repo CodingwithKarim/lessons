@@ -29,6 +29,7 @@ Sometimes the best way to understand something is to break it down and build a b
 | `05-c-arrays`                     | How Arrays work in C (continuos memory)     |   C++                  |
 | `06-python-asyncio`               | Sync vs Async with Asyncio                  |   Python               |
 | `07-c-singleton`                  | Singleton Design Patter in C                |   C++                  |
+| `08-c-dependency-injection`       | Dependency Injection in C                   |   C++                  |
 
 ---
 
