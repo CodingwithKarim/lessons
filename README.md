@@ -31,6 +31,8 @@ Sometimes the best way to understand something is to break it down and build a b
 | `07-c-singleton`                  | Singleton Design Patter in C++              |   C++                  |
 | `08-c-dependency-injection`       | Dependency Injection in C++                 |   C++                  |
 | `09-c-mutex`                      | Mutexes in C++                              |   C++                  |
+| `10-go-goroutines-w-mutex`        | Goroutines + Mutex                          |   Go                   |
+| `11-go-goroutines-w-channel`      | Goroutines + Channel                        |   Go                   |
 
 ---
 

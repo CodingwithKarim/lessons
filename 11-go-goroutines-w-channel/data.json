@@ -1,0 +1,44 @@
+{
+    "singers": [
+        {
+            "id": 1,
+            "name": "IceJJFish"
+        },
+        {
+            "id": 2,
+            "name": "Gucci Mane"
+        },
+        {
+            "id": 3,
+            "name": "Taylor Swift"
+        }
+    ],
+    "cars": [
+        {
+            "id": 1,
+            "make": "Honda Civic"
+        },
+        {
+            "id": 2,
+            "make": "Toyota Corolla"
+        },
+        {
+            "id": 3,
+            "make": "Nissan Altima"
+        }
+    ],
+    "drinks": [
+        {
+            "id": 1,
+            "name": "Coca-Cola"
+        },
+        {
+            "id": 2,
+            "name": "Red Bull"
+        },
+        {
+            "id": 3,
+            "name": "Pine-Sol"
+        }
+    ]
+}
