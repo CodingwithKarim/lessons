@@ -33,6 +33,7 @@ Sometimes the best way to understand something is to break it down and build a b
 | `09-c-mutex`                      | Mutexes in C++                              |   C++                  |
 | `10-go-goroutines-w-mutex`        | Goroutines + Mutex                          |   Go                   |
 | `11-go-goroutines-w-channel`      | Goroutines + Channel                        |   Go                   |
+| `12-go-channels`                  | Buffered Channel vs Unbuffered Channel      |   Go                   |
 
 ---
 
