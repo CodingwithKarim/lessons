@@ -34,6 +34,8 @@ Sometimes the best way to understand something is to break it down and build a b
 | `10-go-goroutines-w-mutex`        | Goroutines + Mutex                          |   Go                   |
 | `11-go-goroutines-w-channel`      | Goroutines + Channel                        |   Go                   |
 | `12-go-channels`                  | Buffered Channel vs Unbuffered Channel      |   Go                   |
+| `13-go-generics`                  | Generics in Go                              |   Go                   |
+| `14-go-select`                    | Select Keyword in Go                        |   Go                   |
 
 ---
 
